@@ -58,3 +58,30 @@ for i in range(1,6):
     print()
     for j in range(1,i+1):
         print(i, end=' ')
+
+# Write a program to print the following pattern
+# 0
+# 12
+# 345
+# 6789 
+
+count = 0
+for i in range(1,5):
+    print()
+    for j in range(1,i+1):
+        print(count, end=' ')
+    count = count+1
+
+# Write a program to print the following pattern
+#     1
+#    12
+#   123
+#  1234
+# 12345  
+
+
+
+
+
+
+
