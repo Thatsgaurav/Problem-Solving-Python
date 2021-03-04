@@ -32,3 +32,11 @@ name = "Gaurav"
 age = 9 
 print("Name = %s and age = %d"%(name,age))
 print("Name = %s age = %d"%("Gaur",8))
+
+# ---------------------------------------------- >>>>
+print ("Hello, I am {} years old !".format(18))
+
+# Program to demonstrate slicing operation
+
+str = "PYTHON"
+print("str[1.5] = str[1:5]")
