@@ -16,7 +16,7 @@ print("Concatenated string is :",str3)
 # Program to append a string using + operator 
 
 str="Hello!"
-Name=input("\nEnter your name:")
+Name=input("\nEnter your name :")
 str = str + Name
 str+= ".Welcome to python."
 print(str)
@@ -25,3 +25,10 @@ print(str)
 
 str = "Hello!"
 print(str *3)
+
+# Program to use format sequences 
+
+name = "Gaurav"
+age = 9 
+print("Name = %s and age = %d"%(name,age))
+print("Name = %s age = %d"%("Gaur",8))
