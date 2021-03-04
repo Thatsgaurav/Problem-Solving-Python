@@ -39,4 +39,35 @@ print ("Hello, I am {} years old !".format(18))
 # Program to demonstrate slicing operation
 
 str = "PYTHON"
-print("str[1.5] = str[1:5]")
+str =  "PYTHON"
+print("str[-1]=",str[-1])
+print("str[-6]=",str[-6])
+print("str[-2]=",str[-2:])
+print("str[:-2]=",str[:-2])
+print("str[-5:-2]=",str[-5:-2])
+
+#Check if the string starts with "The" and ends with "Spain":
+
+import re
+txt = input("Enter Your text :")
+x = re.search("^The.*Spain$", txt)
+if (x):
+  print("YES! We have a match!")
+else:
+  print("No match")
+
+
+
+# ------------------------------------------------------------->>>>>
+
+# write a function that takes a list of words and 	returns the length of longest one
+
+def find_longest_word(words_list):
+    word_len = []
+    for n in words_list:
+        word_len.append((len(n), n))
+    word_len.sort()
+    return word_len[-1][0], word_len[-1][1]
+result = find_longest_word(["PHP", "Exercises", "Backend"])
+print("\nLongest word: ",result[1])
+print("Length of the longest word: ",result[0])
