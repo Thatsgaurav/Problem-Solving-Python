@@ -1,0 +1,10 @@
+Write an algorithm to find the sum of first N natural numbers.
+
+Step 1: Input N
+Step 2: Set I = 1, sum = 0
+Step 3: Repeat Steps 4 and 5 while I < = N
+Step 4: Set sum = sum + I
+Step 5: Set I = I + 1
+        [END OF LOOP]
+Step 6: Print sum
+Step 7: End
