@@ -1,3 +1,5 @@
+Write an algorithm for interchanging/swapping two values
+
 Step 1: Input First Number as A
 Step 2: Input Second Number as B
 Step 3: Set temp = A

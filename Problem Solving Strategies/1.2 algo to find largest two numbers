@@ -1,3 +1,5 @@
+Write an algorithm to find the larger of two numbers.
+
 Step 1: Input first number as A
 Step 2: Input second number as B
 Step 3: IF A > B
@@ -8,4 +10,3 @@ Step 3: IF A > B
         Print "The number are equal"
         [END OF IF]
 Step 4: End
-

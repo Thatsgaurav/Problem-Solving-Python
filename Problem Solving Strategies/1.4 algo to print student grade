@@ -1,3 +1,5 @@
+Write an algorithm to print the Grade obtained by a student using the following rules:
+
 MARKS         <--->   Grade
 Above 75      <--->   O
 60-75         <--->   A
