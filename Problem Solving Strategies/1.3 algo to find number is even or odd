@@ -1,0 +1,7 @@
+Step 1: Input number as A
+Step 2: IF A % 2 = 0
+        Print "Even"
+        ELSE
+        Print "Odd"
+        [END OF IF]
+Step 3: End

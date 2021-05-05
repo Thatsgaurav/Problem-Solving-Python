@@ -1,0 +1,22 @@
+MARKS         <--->   Grade
+Above 75      <--->   O
+60-75         <--->   A
+50-75         <--->   B
+40-50         <--->   C
+Less than 40  <--->   D
+
+Solution:
+
+Step 1: Enter the marks obtained as M
+Step 2: IF M > 75
+        Print "0"
+Step 3: IF M >= 60 and M < 75
+        Print "A"
+Step 4: IF M >= 50 and M < 60
+        Print "B"
+Step 5: IF M >= 40 and M < 50
+        Print "C"
+        ELSE
+        print "0"
+        [END OF IF]
+Step 6: End
