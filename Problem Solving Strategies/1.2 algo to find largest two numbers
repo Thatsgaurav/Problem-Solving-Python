@@ -1,0 +1,11 @@
+Step 1: Input first number as A
+Step 2: Input second number as B
+Step 3: IF A > B
+        Print A
+        ELSE IF A < B
+        Print B
+        ELSE
+        Print "The number are equal"
+        [END OF IF]
+Step 4: End
+
