@@ -1,0 +1,9 @@
+Write a pseudocode for calculataing the price of a product. after adding the sales tax to original price.
+
+1. Read the price of a product
+2. Read the sales tax rate
+3. Calculate sales tax = price of the item x* sales tax rate
+4. Calculate total price = price of the product + sales tax
+5. Print total price
+6. End 
+Variables: price of the item, sales tax rate, sales tax, total price
