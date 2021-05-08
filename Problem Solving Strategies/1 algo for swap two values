@@ -1,9 +1,0 @@
-Write an algorithm for interchanging/swapping two values
-
-Step 1: Input First Number as A
-Step 2: Input Second Number as B
-Step 3: Set temp = A
-Step 4: Set A = B
-Step 5: Set B = temp
-Step 6: Print A, B
-Step 7: End
